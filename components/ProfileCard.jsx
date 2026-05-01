@@ -19,8 +19,7 @@ export default function ProfileCard() {
             <span className="verifiedBadge" title="Verified">✓</span>
           </h2>
           <p className="profileTagline">
-            I build AI-powered systems, automation pipelines, and full-stack
-            applications.
+            I build intelligent systems that solve real-world problems, from AI-driven automation to full-stack applications that make daily tasks easier.
           </p>
         </div>
       </div>

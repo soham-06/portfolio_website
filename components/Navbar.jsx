@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -10,8 +9,7 @@ export default function Navbar() {
     <nav className="navbar" id="navbar">
       <div className="container">
         <Link href="/" className="navbarLogo">
-          <Image src="/images/profile.png" alt="ST" width={32} height={32} />
-          <span>ST</span>
+          <span>SHMCT</span>
         </Link>
         <div className={`navbarLinks ${open ? "open" : ""}`}>
           {["home", "about", "projects", "experience"].map((id) => (

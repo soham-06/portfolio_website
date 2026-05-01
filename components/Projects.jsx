@@ -1,11 +1,8 @@
-import Image from "next/image";
-
 const projects = [
   {
     id: "livescribe",
     title: "LiveScribe",
     desc: "Meeting Intelligence System — speech-to-insight pipeline with LLM reasoning",
-    image: "/images/livescribe.png",
     tags: ["Python", "FastAPI", "Whisper", "LLMs"],
     href: "https://github.com/soham-06",
   },
@@ -13,7 +10,6 @@ const projects = [
     id: "applygrid",
     title: "ApplyGrid",
     desc: "Autonomous Job Application System with RAG-powered semantic matching",
-    image: "/images/applygrid.png",
     tags: ["Python", "FastAPI", "RAG", "Playwright"],
     href: "https://github.com/soham-06",
   },
@@ -21,7 +17,6 @@ const projects = [
     id: "krishiai",
     title: "Krishi AI",
     desc: "AI-powered Agriculture Assistant — fine-tuned LLAMA 3.1 for crop advisory",
-    image: "/images/krishiai.png",
     tags: ["Python", "HuggingFace", "FastAPI", "🏆 1st Prize"],
     href: "https://github.com/soham-06",
   },
@@ -42,15 +37,6 @@ export default function Projects() {
             className="projectCard"
             id={`project-${p.id}`}
           >
-            <div className="projectCardImageWrap">
-              <Image
-                src={p.image}
-                alt={p.title}
-                width={600}
-                height={375}
-                className="projectCardImage"
-              />
-            </div>
             <div className="projectCardBody">
               <h3 className="projectCardTitle">{p.title}</h3>
               <p className="projectCardDesc">{p.desc}</p>

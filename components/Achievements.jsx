@@ -1,7 +1,7 @@
 const items = [
   { icon: "🏆", title: "Winner — AI Agon 2025", desc: "National-level hackathon for innovation and impact in the smart farming sector." },
-  { icon: "🏆", title: "Winner — AI Agon 2026", desc: "National-level hackathon — back-to-back champion." },
-  { icon: "🥈", title: "Finalist — Hackonomics 2025", desc: "Competitive hackathon showcasing full-stack and AI skills." },
+  { icon: "🏆", title: "Winner — AI Agon 2026", desc: "National-level hackathon, back to back winner ;) ." },
+  { icon: "🥈", title: "Finalist — Hackonomics 2025", desc: "Built FinIQ, a AI-based platform for finance newbies." },
   { icon: "💻", title: "250+ Problems Solved", desc: "Across Leetcode, Codeforces, CodeChef, and GeeksforGeeks." },
 ];
 
